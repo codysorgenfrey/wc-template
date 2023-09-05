@@ -1,0 +1,22 @@
+{
+  "name": "wc-template",
+  "version": "0.1.0",
+  "description": "A starting point for Web Component based projects.",
+  "main": "index.html",
+  "scripts": {
+    "start": "web-dev-server --watch --open --root-dir ./src",
+    "build": "node ./build.mjs",
+    "lint": "eslint ."
+  },
+  "author": "Cody Sorgenfrey",
+  "license": "MIT",
+  "devDependencies": {
+    "@web/dev-server": "^0.3.0",
+    "esbuild": "^0.19.0",
+    "eslint": "^7.32.0 || ^8.2.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-html": "^7.1.0",
+    "eslint-plugin-import": "^2.25.2",
+    "fs-extra": "^11.1.1"
+  }
+}

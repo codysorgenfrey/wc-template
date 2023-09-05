@@ -1,0 +1,15 @@
+body {
+  margin: 0;
+}
+
+button {
+  color: inherit;
+}
+
+div {
+  line-height: 0;
+}
+
+:not(:defined) {
+  visibility: hidden;
+}
